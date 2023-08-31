@@ -65,12 +65,14 @@ Need move or delete pfx in the compatdata/ID-game/pfx folder for then create a l
 in the pfx contais the virtual disk informacition with the windows files.
 
 for the non original games
-`sudo rm /media/noe/Jouji/SteamLibrary/steamapps/compatdata/{ID-SOMEONE-GAME}/pfx`
-`sudo ln -s /home/noe/.var/app/com.usebottles.bottles/data/bottles/bottles/{yourBottleName} /media/noe/Jouji/SteamLibrary/steamapps/compatdata/{ID-SOMEONE-GAME}/pfx`
 
-For the original games 
-`sudo rm /media/noe/Jouji/SteamLibrary/steamapps/compatdata/1282100/pfx`
-`sudo ln -s /home/noe/.var/app/com.usebottles.bottles/data/bottles/bottles/{yourBottleName} /media/noe/Jouji/SteamLibrary/steamapps/compatdata/1282100/pfx`
+```sudo rm /media/noe/Jouji/SteamLibrary/steamapps/compatdata/{ID-SOMEONE-GAME}/pfx
+sudo ln -s /home/noe/.var/app/com.usebottles.bottles/data/bottles/bottles/{yourBottleName} /media/noe/Jouji/SteamLibrary/steamapps/compatdata/{ID-SOMEONE-GAME}/pfx```
+
+For the original games
+
+`sudo rm /media/noe/Jouji/SteamLibrary/steamapps/compatdata/1282100/pfx
+sudo ln -s /home/noe/.var/app/com.usebottles.bottles/data/bottles/bottles/{yourBottleName} /media/noe/Jouji/SteamLibrary/steamapps/compatdata/1282100/pfx```
 
 note for both: (/media/noe/Jouji) is my HDD disk where is installed the game
 
