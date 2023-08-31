@@ -1,12 +1,12 @@
-# Remnat2-FIX-Dx12-Linux
+# Remnant2-FIX-Dx12-Linux
 
-For Fix the error in Remnant II and other gammes that saids that dx12 is not supported by your card in linux, on lutris, bottles or steam in many games like insurgency sandstorm or Remnat2. 
+For Fix the error in Remnant II and other gammes that saids that dx12 is not supported by your card in linux, on lutris, bottles or steam in many games like insurgency sandstorm or Remnant2. 
 
 ## Requeriments
 Need:
 - Bottles (I prefer bottles than lutris for this example, is more secure and easy, i am using flatpak version)
 - vc_redist of microsoft (Need it in the bottle or runner, download links bellow.)
-- If you use a non original version and want play online lan need do this steps firts ([Online Fix for non original](https://www.reddit.com/r/LinuxCrackSupport/comments/tqjp3z/guide_running_steamworks_fixonline_fix_with_linux/) or [mirror post](https://github.com/Milor123/Remnat-2-FIX-Dx12-Linux/blob/main/Onlinefix-BackupPost.md)) and then continue reading this guide.
+- If you use a non original version and want play online lan need do this steps firts ([Online Fix for non original](https://www.reddit.com/r/LinuxCrackSupport/comments/tqjp3z/guide_running_steamworks_fixonline_fix_with_linux/) or [mirror post](https://github.com/Milor123/Remnant-2-FIX-Dx12-Linux/blob/main/Onlinefix-BackupPost.md)) and then continue reading this guide.
 - If you use the original steam game, can start here
 - ProtonUP-QT
 
