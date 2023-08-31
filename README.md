@@ -36,7 +36,8 @@ In my case i need move or install direct the runners in
 My folder of the bottle is `/home/noe/.var/app/com.usebottles.bottles/data/bottles/bottles/Insurgencito` (this is the folder in bottles flatpak version, if you dont use flatpak, search the correct location)
 
 ## Create a virtual disk and link the compatdata and pfx
-STEP 1 (only needed if you use a non original steam game) else Direct go to the Step 2
+
+### STEP 1 (only needed if you use a non original steam game) else Direct go to the Step 2
 
 This step is probably the more hard. 
 
@@ -51,7 +52,7 @@ Keep it in mind because we need add it in a enviroment variable
 if you need add the Env variable in non original games maybe could need it [ENV-Variable Oficial Docs](https://github.com/sonic2kk/steamtinkerlaunch/wiki/ENV-Variables)
 its very easy, please read or try add it to the launch options, i am not sure if works too.
 
-STEP 2 (if you have the original game)
+### STEP 2 (if you have the original game)
 you id should be the number 1282100
 And this case we dont need create a enviroment variable, but if you dont found this folder, search in you game by your id
 ![image](https://github.com/Milor123/Renmnat-2-FIX-Dx12-Linux/assets/14153649/f30b3d25-f164-4095-92ee-def7e5a0bd54)
@@ -59,20 +60,24 @@ And this case we dont need create a enviroment variable, but if you dont found t
 `STEAM_COMPAT_DATA_PATH=/media/noe/Jouji/SteamLibrary/steamapps/compatdata/1282100` using the 1282100 for your game, ignore my image number
 
 
-STEP 3 (This is very very important for anything case)
+### STEP 3 (This is very very important for anything case)
 
 Need move or delete pfx in the compatdata/ID-game/pfx folder for then create a link to the bottles
 in the pfx contais the virtual disk informacition with the windows files.
 
 for the non original games
 
-```sudo rm /media/noe/Jouji/SteamLibrary/steamapps/compatdata/{ID-SOMEONE-GAME}/pfx
-sudo ln -s /home/noe/.var/app/com.usebottles.bottles/data/bottles/bottles/{yourBottleName} /media/noe/Jouji/SteamLibrary/steamapps/compatdata/{ID-SOMEONE-GAME}/pfx```
+```
+sudo rm /media/noe/Jouji/SteamLibrary/steamapps/compatdata/{ID-SOMEONE-GAME}/pfx
+sudo ln -s /home/noe/.var/app/com.usebottles.bottles/data/bottles/bottles/{yourBottleName} /media/noe/Jouji/SteamLibrary/steamapps/compatdata/{ID-SOMEONE-GAME}/pfx
+```
 
 For the original games
 
-```sudo rm /media/noe/Jouji/SteamLibrary/steamapps/compatdata/1282100/pfx
-sudo ln -s /home/noe/.var/app/com.usebottles.bottles/data/bottles/bottles/{yourBottleName} /media/noe/Jouji/SteamLibrary/steamapps/compatdata/1282100/pfx```
+```
+sudo rm /media/noe/Jouji/SteamLibrary/steamapps/compatdata/1282100/pfx
+sudo ln -s /home/noe/.var/app/com.usebottles.bottles/data/bottles/bottles/{yourBottleName} /media/noe/Jouji/SteamLibrary/steamapps/compatdata/1282100/pfx
+```
 
 note for both: (/media/noe/Jouji) is my HDD disk where is installed the game
 
