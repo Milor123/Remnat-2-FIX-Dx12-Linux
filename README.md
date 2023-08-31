@@ -35,6 +35,8 @@ In my case i need move or install direct the runners in
 ![image](https://github.com/Milor123/Renmnat-2-FIX-Dx12-Linux/assets/14153649/c421d2ad-a2aa-4280-b7a7-31e579841eae)
 My folder of the bottle is `/home/noe/.var/app/com.usebottles.bottles/data/bottles/bottles/Insurgencito` (this is the folder in bottles flatpak version, if you dont use flatpak, search the correct location)
 
+TIP: If you use non steam version and need install SteamTinkerLaunch, you can do it using ProtonUP-QT
+
 ## Create a virtual disk and link the compatdata and pfx
 
 ### STEP 1 (only needed if you use a non original steam game) else Direct go to the Step 2
