@@ -71,7 +71,7 @@ sudo ln -s /home/noe/.var/app/com.usebottles.bottles/data/bottles/bottles/{yourB
 
 For the original games
 
-`sudo rm /media/noe/Jouji/SteamLibrary/steamapps/compatdata/1282100/pfx
+```sudo rm /media/noe/Jouji/SteamLibrary/steamapps/compatdata/1282100/pfx
 sudo ln -s /home/noe/.var/app/com.usebottles.bottles/data/bottles/bottles/{yourBottleName} /media/noe/Jouji/SteamLibrary/steamapps/compatdata/1282100/pfx```
 
 note for both: (/media/noe/Jouji) is my HDD disk where is installed the game
